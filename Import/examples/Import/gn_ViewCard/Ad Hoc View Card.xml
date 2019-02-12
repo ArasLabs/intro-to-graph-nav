@@ -1,0 +1,136 @@
+﻿<AML>
+ <Item type="gn_ViewCard" id="6AC8872D0CB54957A60CC785AC955D59" action="add">
+  <description>A sample view card for styling the nodes in the "Ad Hoc Graph" Graph View Definition.</description>
+  <template_definition>{
+    "container": {
+        "type": "grid",
+        "style": {
+            "width": 200,
+            "height": 90,
+            "color": "#FCDAC8",
+            "padding": {
+                "left": 12,
+                "right": 12,
+                "top": 12,
+                "bottom": 12
+            },
+            "rows": [
+                {
+                    "height": 20
+                },
+                {
+                    "height": 16
+                },
+                {
+                    "height": 16
+                },
+                {
+                    "height": 16
+                }
+            ],
+            "cols": [
+                {
+                    "width": 22
+                },
+                {
+                    "width": 120
+                },
+                {
+                    "width": 35
+                }
+            ],
+            "border": {
+                "width": 1,
+                "color": "#A14617",
+                "cornerRadius": 10,
+                "shadow": {
+                    "horizontal": 2,
+                    "vertical": 3,
+                    "color": "#000000",
+                    "opacity": 0.5
+                }
+            },
+            "cells": [
+                {
+                    "content": "image",
+                    "content_binding": "icon",
+                    "col": 0,
+                    "row": 0
+                },
+                {
+                    "content": "text",
+                    "content_binding": "keyed_name",
+                    "col": 1,
+                    "row": 0
+                },
+                {
+                    "content": "text",
+                    "content_binding": "generation",
+                    "col": 2,
+                    "row": 0,
+                    "style": {
+                        "verticalAlignment": "top",
+                        "horizontalAlignment": "end",
+                        "font": {
+                            "size": 10,
+                            "family": "Tahoma",
+                            "weight": "normal",
+                            "color": "#777777"
+                        }
+                    }
+                },
+                {
+                    "content": "text",
+                    "content_binding": "name",
+                    "col": 1,
+                    "row": 1,
+                    "style": {
+                        "font": {
+                            "size": 12,
+                            "family": "Tahoma",
+                            "weight": "normal",
+                            "color": "#333333"
+                        }
+                    }
+                },
+                {
+                    "content": "text",
+                    "content_binding": "classification",
+                    "col": 1,
+                    "row": 2,
+                    "style": {
+                        "font": {
+                            "size": 10,
+                            "family": "Tahoma",
+                            "weight": "normal",
+                            "color": "#333333"
+                        }
+                    }
+                },
+                {
+                    "content": "text",
+                    "content_binding": "state",
+                    "col": 1,
+                    "row": 3,
+                    "style": {
+                        "font": {
+                            "size": 10,
+                            "family": "Tahoma",
+                            "weight": "normal",
+                            "color": "#777777"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "style": {
+        "arrowhead": {
+            "height": 17,
+            "width": 7
+        }
+    }
+}</template_definition>
+  <name>Ad Hoc View Card</name>
+ </Item>
+</AML>

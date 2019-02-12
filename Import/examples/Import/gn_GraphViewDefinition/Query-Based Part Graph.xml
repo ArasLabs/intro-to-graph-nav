@@ -1,0 +1,59 @@
+﻿<AML>
+ <Item type="gn_GraphViewDefinition" id="558147B6C80E489AA35CF0C7C122431E" action="add">
+  <description>A query-based graph view to show Parts and their BOMs.</description>
+  <query_definition_id keyed_name="Part Graph Query" type="qry_QueryDefinition">E56D3DE6848D4CF197D30C915FC6B1DB</query_definition_id>
+  <name>Query-Based Part Graph</name>
+  <Relationships>
+   <Item type="gn_GraphViewConnector" id="9E867546FDCB4BC296E86736AD67CD5E" action="add">
+    <connector_type_id keyed_name="Part_Identity_Query-Based Part Graph_1" type="gn_ConnectorType">F3C7A2F73C50409DABAF5DF8645431CF</connector_type_id>
+    <int_query_reference_path>F69FBD17DA3343A9BD2AE4F9BA56DAD1</int_query_reference_path>
+    <sort_order>128</sort_order>
+    <source_endpoint_id keyed_name="E721055060AD41D093F45DC9F6455375" type="gn_GraphViewNode">E721055060AD41D093F45DC9F6455375</source_endpoint_id>
+    <source_id keyed_name="Query-Based Part Graph" type="gn_GraphViewDefinition">558147B6C80E489AA35CF0C7C122431E</source_id>
+    <target_endpoint_id keyed_name="E27B2F24D653476294BBD3FFECDB7A9E" type="gn_GraphViewNode">E27B2F24D653476294BBD3FFECDB7A9E</target_endpoint_id>
+   </Item>
+   <Item type="gn_GraphViewConnector" id="36004C192BCE432A927962CA9E184A09" action="add">
+    <connector_type_id keyed_name="Part_Part_Query-Based Part Graph_1" type="gn_ConnectorType">3261835732214D77BD4C7FCEB9ACF653</connector_type_id>
+    <end_query_item_id keyed_name="Part BOM" type="qry_QueryItem">1548FAA839B3419E89D3163227591F64</end_query_item_id>
+    <int_query_reference_path>0B4197AAD3DC436C8D2ABEB5421A6976/02B48E71D60942748C27D536DA861EA3</int_query_reference_path>
+    <sort_order>256</sort_order>
+    <source_endpoint_id keyed_name="E721055060AD41D093F45DC9F6455375" type="gn_GraphViewNode">E721055060AD41D093F45DC9F6455375</source_endpoint_id>
+    <source_id keyed_name="Query-Based Part Graph" type="gn_GraphViewDefinition">558147B6C80E489AA35CF0C7C122431E</source_id>
+    <start_query_item_id keyed_name="Part BOM" type="qry_QueryItem">1548FAA839B3419E89D3163227591F64</start_query_item_id>
+    <target_endpoint_id keyed_name="E721055060AD41D093F45DC9F6455375" type="gn_GraphViewNode">E721055060AD41D093F45DC9F6455375</target_endpoint_id>
+   </Item>
+   <Item type="gn_GraphViewItemType" id="2861EF8C3F7C43469CC3327A97CE41B8" action="add">
+    <entry_graph_view_node_id keyed_name="E721055060AD41D093F45DC9F6455375" type="gn_GraphViewNode">E721055060AD41D093F45DC9F6455375</entry_graph_view_node_id>
+    <related_id keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Query-Based Part Graph" type="gn_GraphViewDefinition">558147B6C80E489AA35CF0C7C122431E</source_id>
+   </Item>
+   <Item type="gn_GraphViewNode" id="E721055060AD41D093F45DC9F6455375" action="add">
+    <end_query_item_id keyed_name="Part" type="qry_QueryItem">23B7C81E5A3F4C09BC7B66732313F04D</end_query_item_id>
+    <node_type_id keyed_name="Part_Query-Based Part Graph" type="gn_NodeType">75027950374C4C0A8553FF0EA59EF0B6</node_type_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Query-Based Part Graph" type="gn_GraphViewDefinition">558147B6C80E489AA35CF0C7C122431E</source_id>
+    <start_query_item_id keyed_name="Part" type="qry_QueryItem">23B7C81E5A3F4C09BC7B66732313F04D</start_query_item_id>
+   </Item>
+   <Item type="gn_GraphViewNode" id="E27B2F24D653476294BBD3FFECDB7A9E" action="add">
+    <end_query_item_id keyed_name="Identity" type="qry_QueryItem">56CFC4A37709402581B8D2D6338BD70E</end_query_item_id>
+    <node_type_id keyed_name="Identity_Query-Based Part Graph" type="gn_NodeType">5880D064DB6D4014AB7C7CD09098006C</node_type_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Query-Based Part Graph" type="gn_GraphViewDefinition">558147B6C80E489AA35CF0C7C122431E</source_id>
+    <start_query_item_id keyed_name="Identity" type="qry_QueryItem">56CFC4A37709402581B8D2D6338BD70E</start_query_item_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="2EFC5E13BD904789B13B870434D846B9" action="add">
+    <itemtype_id keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</itemtype_id>
+    <related_id keyed_name="Part_Query-Based Part Graph" type="gn_ViewCard">53FD1143ABCA4C80B1E885B940484D14</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Query-Based Part Graph" type="gn_GraphViewDefinition">558147B6C80E489AA35CF0C7C122431E</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="582DE4FF85F94019B7A9D29E60455497" action="add">
+    <itemtype_id keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</itemtype_id>
+    <related_id keyed_name="Identity_Query-Based Part Graph" type="gn_ViewCard">5F7FBE76224245DFB63DC8326BD1AACB</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Query-Based Part Graph" type="gn_GraphViewDefinition">558147B6C80E489AA35CF0C7C122431E</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

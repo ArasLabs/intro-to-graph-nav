@@ -1,0 +1,3 @@
+<imports>
+  <package name="aras.labs.graph_nav.examples" path="examples\Import" />
+</imports>

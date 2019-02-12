@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Action" id="1553C863146F4A4B80FB7C3CBE6426BF" action="add">
+  <item_query>&lt;Item type="{@type}" id="{@id}" levels= "1" action="get" /&gt;</item_query>
+  <label xml:lang="en">Show My Query Graph</label>
+  <location>client</location>
+  <method keyed_name="labs_ShowMyQueryGraph" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>labs_ShowMyQueryGraph</name>
+   </Item>
+  </method>
+  <target>none</target>
+  <type>item</type>
+  <name>labs_ShowMyQueryGraph</name>
+ </Item>
+</AML>

@@ -1,0 +1,32 @@
+﻿<AML>
+ <Item type="gn_NodeType" id="5880D064DB6D4014AB7C7CD09098006C" action="add">
+  <itemtype_id keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</itemtype_id>
+  <name>Identity_Query-Based Part Graph</name>
+  <Relationships>
+   <Item type="gn_NodeTypeProperty" id="9F5740CD60F74C0ABCCD0E0025156835" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Identity_Query-Based Part Graph" type="gn_NodeType">5880D064DB6D4014AB7C7CD09098006C</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="D56DD541E09843E6A3103F534F71A430" action="add">
+    <name>icon</name>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Identity_Query-Based Part Graph" type="gn_NodeType">5880D064DB6D4014AB7C7CD09098006C</source_id>
+    <value_template>{@icon}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="250368FA39B94B6B89C56A06316DFA86" action="add">
+    <name>name</name>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Identity_Query-Based Part Graph" type="gn_NodeType">5880D064DB6D4014AB7C7CD09098006C</source_id>
+    <value_template>{name}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="B7CD993521C44AF886CBC2E65E10383B" action="add">
+    <name>description</name>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Identity_Query-Based Part Graph" type="gn_NodeType">5880D064DB6D4014AB7C7CD09098006C</source_id>
+    <value_template>{description}</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

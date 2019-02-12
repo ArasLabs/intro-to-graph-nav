@@ -1,0 +1,44 @@
+﻿<AML>
+ <Item type="gn_NodeType" id="75027950374C4C0A8553FF0EA59EF0B6" action="add">
+  <itemtype_id keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</itemtype_id>
+  <name>Part_Query-Based Part Graph</name>
+  <Relationships>
+   <Item type="gn_NodeTypeProperty" id="76AA680C60124F2F96BC7370A374D167" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Part_Query-Based Part Graph" type="gn_NodeType">75027950374C4C0A8553FF0EA59EF0B6</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="FDE5725CA057406EA17F4D38FB88E2D5" action="add">
+    <name>icon</name>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Part_Query-Based Part Graph" type="gn_NodeType">75027950374C4C0A8553FF0EA59EF0B6</source_id>
+    <value_template>{@icon}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="5A683111D9FF404F8F28D859091580E6" action="add">
+    <name>item_number</name>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Part_Query-Based Part Graph" type="gn_NodeType">75027950374C4C0A8553FF0EA59EF0B6</source_id>
+    <value_template>{item_number}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="82A8AF66A74B4545A224B15078FAE401" action="add">
+    <name>name</name>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Part_Query-Based Part Graph" type="gn_NodeType">75027950374C4C0A8553FF0EA59EF0B6</source_id>
+    <value_template>{name}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="A88D9C42A8A149E1A50B9C650E1FD0E4" action="add">
+    <name>generation</name>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Part_Query-Based Part Graph" type="gn_NodeType">75027950374C4C0A8553FF0EA59EF0B6</source_id>
+    <value_template>{generation}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="A8F9439FCAF5469696FAEA1423AD4CC8" action="add">
+    <name>major_rev</name>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Part_Query-Based Part Graph" type="gn_NodeType">75027950374C4C0A8553FF0EA59EF0B6</source_id>
+    <value_template>{major_rev}</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
