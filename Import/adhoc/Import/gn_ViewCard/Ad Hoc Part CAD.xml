@@ -1,0 +1,6 @@
+﻿<AML>
+ <Item type="gn_ViewCard" id="B15D4C690BE24EAAB4B0E2590C35D448" action="add">
+  <template_definition>{"container":{"type":"grid","style":{"width":45,"height":45,"color":"#FCDAC8","padding":{"left":5,"right":5,"top":5,"bottom":5},"rows":[{"height":35}],"cols":[{"width":35}],"border":{"width":1,"color":"#F58F5A","cornerRadius":90,"shadow":{"horizontal":2,"vertical":3,"color":"#51230C","opacity":0.5}},"cells":[{"content":"image","content_binding":"icon","col":0,"row":0,"style":{"verticalAlignment":"middle","horizontalAlignment":"middle"}}]}}}</template_definition>
+  <name>Ad Hoc Part CAD</name>
+ </Item>
+</AML>

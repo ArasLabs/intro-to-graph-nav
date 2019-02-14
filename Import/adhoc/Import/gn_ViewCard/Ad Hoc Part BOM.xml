@@ -1,0 +1,54 @@
+﻿<AML>
+ <Item type="gn_ViewCard" id="E958D26B34BD4BD1A525CC1B3CD0F3F1" action="add">
+  <template_definition>{
+    "container": {
+        "type": "grid",
+        "style": {
+            "width": 45,
+            "height": 45,
+            "color": "#D8C6DA",
+            "padding": {
+                "left": 5,
+                "right": 5,
+                "top": 5,
+                "bottom": 5
+            },
+            "rows": [
+                {
+                    "height": 35
+                }
+            ],
+            "cols": [
+                {
+                    "width": 35
+                }
+            ],
+            "border": {
+                "width": 1,
+                "color": "#895591",
+                "cornerRadius": 90,
+                "shadow": {
+                    "horizontal": 2,
+                    "vertical": 3,
+                    "color": "#411348",
+                    "opacity": 0.5
+                }
+            },
+            "cells": [
+                {
+                    "content": "image",
+                    "content_binding": "icon",
+                    "col": 0,
+                    "row": 0,
+                    "style": {
+                        "verticalAlignment": "middle",
+                        "horizontalAlignment": "middle"
+                    }
+                }
+            ]
+        }
+    }
+}</template_definition>
+  <name>Ad Hoc Part BOM</name>
+ </Item>
+</AML>

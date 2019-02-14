@@ -1,23 +1,14 @@
 ﻿<AML>
- <Item type="gn_ViewCard" id="6AC8872D0CB54957A60CC785AC955D59" action="add">
-  <description>A sample view card for styling the nodes in the "Ad Hoc Graph" Graph View Definition.</description>
+ <Item type="gn_ViewCard" id="53FD1143ABCA4C80B1E885B940484D14" action="add">
   <template_definition>{
     "container": {
         "type": "grid",
         "style": {
-            "width": 200,
+            "width": 224,
             "height": 90,
-            "color": "#FCDAC8",
-            "padding": {
-                "left": 12,
-                "right": 12,
-                "top": 12,
-                "bottom": 12
-            },
+            "color": "#F7F7F7",
+            "padding": 12,
             "rows": [
-                {
-                    "height": 20
-                },
                 {
                     "height": 16
                 },
@@ -33,21 +24,24 @@
                     "width": 22
                 },
                 {
-                    "width": 120
+                    "width": 140
                 },
                 {
-                    "width": 35
+                    "width": 20
+                },
+                {
+                    "width": 18
                 }
             ],
             "border": {
                 "width": 1,
-                "color": "#A14617",
-                "cornerRadius": 10,
+                "color": "#555555",
+                "cornerRadius": 2,
                 "shadow": {
-                    "horizontal": 2,
-                    "vertical": 3,
+                    "horizontal": 1,
+                    "vertical": 2,
                     "color": "#000000",
-                    "opacity": 0.5
+                    "opacity": 0.4
                 }
             },
             "cells": [
@@ -59,22 +53,14 @@
                 },
                 {
                     "content": "text",
-                    "content_binding": "keyed_name",
+                    "content_binding": "item_number",
                     "col": 1,
-                    "row": 0
-                },
-                {
-                    "content": "text",
-                    "content_binding": "generation",
-                    "col": 2,
                     "row": 0,
                     "style": {
-                        "verticalAlignment": "top",
-                        "horizontalAlignment": "end",
                         "font": {
-                            "size": 10,
+                            "size": 12,
                             "family": "Tahoma",
-                            "weight": "normal",
+                            "weight": "bold",
                             "color": "#777777"
                         }
                     }
@@ -86,33 +72,35 @@
                     "row": 1,
                     "style": {
                         "font": {
-                            "size": 12,
+                            "size": 10,
                             "family": "Tahoma",
                             "weight": "normal",
-                            "color": "#333333"
+                            "color": "#777777"
                         }
                     }
                 },
                 {
-                    "content": "text",
-                    "content_binding": "classification",
-                    "col": 1,
+                    "col": 2,
                     "row": 2,
+                    "content_binding": "major_rev",
+                    "content": "text",
                     "style": {
+                        "horizontalAlignment": "end",
                         "font": {
                             "size": 10,
                             "family": "Tahoma",
                             "weight": "normal",
-                            "color": "#333333"
+                            "color": "#777777"
                         }
                     }
                 },
                 {
+                    "col": 3,
+                    "row": 2,
+                    "content_binding": "generation",
                     "content": "text",
-                    "content_binding": "state",
-                    "col": 1,
-                    "row": 3,
                     "style": {
+                        "horizontalAlignment": "start",
                         "font": {
                             "size": 10,
                             "family": "Tahoma",
@@ -123,14 +111,8 @@
                 }
             ]
         }
-    },
-    "style": {
-        "arrowhead": {
-            "height": 17,
-            "width": 7
-        }
     }
 }</template_definition>
-  <name>Ad Hoc View Card</name>
+  <name>Part_Query-Based Part Graph</name>
  </Item>
 </AML>

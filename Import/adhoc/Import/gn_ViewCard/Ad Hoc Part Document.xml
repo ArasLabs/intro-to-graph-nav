@@ -1,0 +1,6 @@
+﻿<AML>
+ <Item type="gn_ViewCard" id="3EFE2F7B26E9428D8F11B10872979B12" action="add">
+  <template_definition>{"container":{"type":"grid","style":{"width":45,"height":45,"color":"#F5E7C9","padding":{"left":5,"right":5,"top":5,"bottom":5},"rows":[{"height":35}],"cols":[{"width":35}],"border":{"width":1,"color":"#E0B85C","cornerRadius":90,"shadow":{"horizontal":2,"vertical":3,"color":"#47350C","opacity":0.5}},"cells":[{"content":"image","content_binding":"icon","col":0,"row":0,"style":{"verticalAlignment":"middle","horizontalAlignment":"middle"}}]}}}</template_definition>
+  <name>Ad Hoc Part Document</name>
+ </Item>
+</AML>

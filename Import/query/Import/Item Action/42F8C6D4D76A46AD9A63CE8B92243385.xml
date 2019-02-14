@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="Item Action" id="42F8C6D4D76A46AD9A63CE8B92243385" action="add">
+  <related_id keyed_name="labs_ShowMyQueryGraph" type="Action">
+   <Item type="Action" id="1553C863146F4A4B80FB7C3CBE6426BF" action="add">
+    <item_query>&lt;Item type="{@type}" id="{@id}" levels= "1" action="get" /&gt;</item_query>
+    <label xml:lang="en">Show My Query Graph</label>
+    <location>client</location>
+    <method keyed_name="labs_ShowMyQueryGraph" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>labs_ShowMyQueryGraph</name>
+     </Item>
+    </method>
+    <target>none</target>
+    <type>item</type>
+    <name>labs_ShowMyQueryGraph</name>
+   </Item>
+  </related_id>
+  <sort_order>1664</sort_order>
+  <source_id keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</source_id>
+ </Item>
+</AML>

@@ -1,3 +1,4 @@
 <imports>
-  <package name="aras.labs.graph_nav.examples" path="examples\Import" />
+  <package name="aras.labs.graph_nav.examples.query" path="query\Import" />
+  <package name="aras.labs.graph_nav.examples.adhoc" path="adhoc\Import" />
 </imports>

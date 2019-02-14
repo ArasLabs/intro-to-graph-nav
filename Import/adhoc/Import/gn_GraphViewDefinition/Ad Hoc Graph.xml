@@ -1,0 +1,49 @@
+﻿<AML>
+ <Item type="gn_GraphViewDefinition" id="CC03CF4BDEAA4B73B1F5F02B0417FDCC" action="add">
+  <description>Demonstrates an ad hoc Graph View Definition for Parts.</description>
+  <name>Ad Hoc Graph</name>
+  <Relationships>
+   <Item type="gn_GraphViewItemType" id="17D00FF8EDBC4EF58FBA1F05FD4AF345" action="add">
+    <related_id keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Ad Hoc Graph" type="gn_GraphViewDefinition">CC03CF4BDEAA4B73B1F5F02B0417FDCC</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="7D9D1BC6C464462CAB0C3E71264EE571" action="add">
+    <itemtype_id keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</itemtype_id>
+    <related_id keyed_name="Ad Hoc Part" type="gn_ViewCard">6AC8872D0CB54957A60CC785AC955D59</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Ad Hoc Graph" type="gn_GraphViewDefinition">CC03CF4BDEAA4B73B1F5F02B0417FDCC</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="A413C5F38B354B1FAF8132B01FC8D86B" action="add">
+    <itemtype_id keyed_name="CAD" type="ItemType" name="CAD">CCF205347C814DD1AF056875E0A880AC</itemtype_id>
+    <related_id keyed_name="Ad Hoc CAD" type="gn_ViewCard">BF1933AACBD94B1BA1F2D4828159315D</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Ad Hoc Graph" type="gn_GraphViewDefinition">CC03CF4BDEAA4B73B1F5F02B0417FDCC</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="5D0AE59B19D349E4A61BEC77DB14612E" action="add">
+    <itemtype_id keyed_name="Document" type="ItemType" name="Document">B88C14B99EF449828C5D926E39EE8B89</itemtype_id>
+    <related_id keyed_name="Ad Hoc Document" type="gn_ViewCard">8605AAAB0B514D9FA591988C737DB3AA</related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Ad Hoc Graph" type="gn_GraphViewDefinition">CC03CF4BDEAA4B73B1F5F02B0417FDCC</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="B1D9F4A508884B4AAE37AF23608982AB" action="add">
+    <itemtype_id keyed_name="Part BOM" type="ItemType" name="Part BOM">5E9C5A12CC58413A8670CF4003C57848</itemtype_id>
+    <related_id keyed_name="Ad Hoc Part BOM" type="gn_ViewCard">E958D26B34BD4BD1A525CC1B3CD0F3F1</related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Ad Hoc Graph" type="gn_GraphViewDefinition">CC03CF4BDEAA4B73B1F5F02B0417FDCC</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="F31982674C8141FF9A2CCE5D38981B72" action="add">
+    <itemtype_id keyed_name="Part CAD" type="ItemType" name="Part CAD">935DF68BCFD849EBB5C3A528F04C5B5B</itemtype_id>
+    <related_id keyed_name="Ad Hoc Part CAD" type="gn_ViewCard">B15D4C690BE24EAAB4B0E2590C35D448</related_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Ad Hoc Graph" type="gn_GraphViewDefinition">CC03CF4BDEAA4B73B1F5F02B0417FDCC</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="87CA03F8842D41EEADEE6641060132D2" action="add">
+    <itemtype_id keyed_name="Part Document" type="ItemType" name="Part Document">BFE7AD9711A547FBB05827B5169493CE</itemtype_id>
+    <related_id keyed_name="Ad Hoc Part Document" type="gn_ViewCard">3EFE2F7B26E9428D8F11B10872979B12</related_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Ad Hoc Graph" type="gn_GraphViewDefinition">CC03CF4BDEAA4B73B1F5F02B0417FDCC</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
