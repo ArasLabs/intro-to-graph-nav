@@ -1,7 +1,4 @@
-﻿<AML>
- <Item type="gn_ViewCard" id="B0E7EDD674F7428BB575CBCCC02FAD6A" action="add">
-  <description>This is a generic View Card that will be used as a System Default Card. Innovator will use this card when a specific card isn't defined.</description>
-  <template_definition>{
+{
     "container": {
         "type": "grid",
         "style": {
@@ -130,7 +127,4 @@
             "width": 7
         }
     }
-}</template_definition>
-  <name>Default View Card</name>
- </Item>
-</AML>
+}
